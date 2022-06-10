@@ -1,0 +1,102 @@
+/* colors from style-guide.md */
+:root{
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+/* Media query for devices below 370px */
+/* 370 / 16px = 23.125em */
+@media only screen and (max-width: 23.125em) {
+   
+}
+/* base properties */
+body {
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+    font-family: 'Overpass', sans-serif;
+}
+
+/* Rating State Section */
+#rating-div {
+    background-color: var(--dark-blue);
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    width: 280px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img {
+    margin-top: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: var(--medium-grey);
+}
+h1 {
+    margin-bottom: -4px;
+}
+p {
+    font-size: 1rem;
+    color: var(--light-grey);
+    font-weight: 400;
+}
+/* Rating number button section */
+.rating-num-btn {
+    margin-top: 20px;
+}
+.btn {
+    border-radius: 50%;
+    padding: 8px 15px;
+    background-color: var(--medium-grey);
+    color: var(--white);
+    display: inline-flex;
+    margin-right: 15px;
+    margin-left: -5px;
+}
+.btn:hover {
+    background-color: var(--orange);
+    color: var(--white)
+}
+/* Rating submit button section */
+button {
+    background-color: var(--orange);
+    color: var(--white);
+    margin-bottom: 30px;
+    padding: 13px 105px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: var(--white);
+    color: var(--orange);
+}
+/* End Of Rating State Section */
+
+/* Thank you state section */
+.hide {
+    display: none;
+}
+.thank-you-div {
+    width: 280px;
+    background-color: var(--dark-blue);
+    border-radius: 30px;
+    padding: 25px 30px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h4 {
+    color: var(--orange);
+    border-radius: 50px;
+    padding: 5px 0px;
+}
