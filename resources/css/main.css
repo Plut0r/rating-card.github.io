@@ -59,6 +59,8 @@ p {
     display: inline-flex;
     margin-right: 15px;
     margin-left: -5px;
+    border: none;
+    outline: none;
 }
 .btn:hover {
     background-color: var(--orange);
