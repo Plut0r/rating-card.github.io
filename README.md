@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github repo url](https://your-solution-url.com)
-- Live Site URL: [Netlify live url](https://your-live-site-url.com)
+- Solution URL: [Github repo url](https://github.com/Plut0r/rating-card.github.io)
+- Live Site URL: [Netlify live url](https://rating-card-plut0r.netlify.app/)
 
 ### Built with
 
